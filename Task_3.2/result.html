@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Velo Smart</title>
+    <!-------------фавикон------------------ -->
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    <!-- -------------стили-------------------->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    <!-- --------------скрипты---------------->
+        <script src="assets/js/result.js"></script>
+    </head>
+<body>
+
+<header>
+    <div class="wrapper wrapper_header">
+        <div class="header_logo">
+            <picture>
+                <source class="logo" media="(max-width: 672px)" srcset="assets/img/logo_small.png">
+                <img class="logo" src="assets/img/Nadia-04.png" alt="">
+            </picture>
+        </div>
+        <div id="status"></div>
+        
+    </div>
+</header>
+
+<div class="wrapper main">
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li id="active"><a href="order.html">Order</a></li>
+        </ul>
+    </nav> 
+
+    <div class="wrapper_result-order">
+        <div  class="result-order">
+            <h2>Your order</h2>
+            <div class="iner-order" data-order>
+            </div>
+            <div class="button_back"><a  href="index.html">main page</a></div>
+
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="wrapper">
+        <div class="footer_copyright">
+            <p>Copyright © 2020</p><br>
+            <p>VeloSmart UA, Inc. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
